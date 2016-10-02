@@ -36,6 +36,7 @@ module.exports = function (task) {
 	return {
 		entry: entries,
 		output: {
+			publicPath: '/',
 			path: PATHS.dest,
 			filename: 'bundle.js'
 		},

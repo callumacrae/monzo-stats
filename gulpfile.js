@@ -21,7 +21,8 @@ gulp.task('js:dev', function (done) {
 
 	new WebpackDevServer(compiler, {
 		stats: { colors: true },
-		hot: true
+		hot: true,
+		historyApiFallback: true
 	}).listen(8080, 'localhost', function (err) {
 		if (err) {
 			throw err;

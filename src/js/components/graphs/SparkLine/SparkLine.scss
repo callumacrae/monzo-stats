@@ -1,0 +1,22 @@
+.line {
+	fill: none;
+	stroke: white;
+	stroke-width: 3px;
+
+	shape-rendering: auto;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+}
+
+.title {
+	alignment-baseline: middle;
+	fill: #8584AE;
+	font-size: 20px;
+}
+
+.total {
+	alignment-baseline: middle;
+	fill: #8584AE;
+	font-size: 20px;
+	text-anchor: end;
+}
