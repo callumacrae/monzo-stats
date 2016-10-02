@@ -56,6 +56,12 @@ module.exports = function (task) {
 				},
 				{
 					test: /\.scss$/,
+					exclude: /components/,
+					loaders: ['style', 'css', 'sass']
+				},
+				{
+					test: /\.scss$/,
+					include: /components/, // CSS modules for components
 					loaders: ['style', 'css?modules', 'sass']
 				},
 				{
