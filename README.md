@@ -6,4 +6,3 @@ WIP
 
 - React HMR
 - CSS in another file
-- CSS modules

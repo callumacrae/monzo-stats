@@ -52,11 +52,11 @@ module.exports = function (task) {
 				},
 				{
 					test: /\.css$/,
-					loaders: ['style', 'css']
+					loaders: ['style', 'css?modules']
 				},
 				{
 					test: /\.scss$/,
-					loaders: ['style', 'css', 'sass']
+					loaders: ['style', 'css?modules', 'sass']
 				},
 				{
 					test: /\.woff2?(\?v=[0-9]\.[0-9]\.[0-9])?$/,
